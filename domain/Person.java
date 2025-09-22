@@ -18,7 +18,7 @@ public abstract class Person {
     // Abstract method for polymorphism
     public abstract String getRole();
     
-    // Getters and setters
+    // Getters and setters (encapsulation)
     public String getId() { return id; }
     public String getFullName() { return fullName; }
     public String getEmail() { return email; }
