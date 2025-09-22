@@ -67,4 +67,29 @@ A console-based Java SE application for managing student records, courses, and g
 - Stream-based reporting
 
 ## Directory Structure
+CCRM-Project/
+├── src/
+│   └── edu/
+│       └── ccrm/
+│           ├── cli/
+│           ├── config/
+│           ├── domain/
+│           ├── exception/
+│           ├── io/
+│           ├── service/
+│           └── util/
+├── screenshots/
+├── test-data/
+├── README.md
+├── USAGE.md
+└── .gitignore
 
+
+## Sample Commands
+
+1. Start application and load sample data
+2. Add students and courses
+3. Enroll students in courses
+4. Record grades and print transcripts
+5. Export data and create backup
+6. View reports and statistics
