@@ -98,7 +98,7 @@ public class CCRMApplication {
     
     private void displayMainMenu() {
         System.out.println("\n" + "=".repeat(40));
-        System.out.println("CAMPUS COURSE RECORDS MANAGER");
+        System.out.println("CAMPUS COURSE AND RECORDS MANAGER");
         System.out.println("=".repeat(40));
         System.out.println("1. Student Management");
         System.out.println("2. Course Management");
@@ -553,7 +553,7 @@ public class CCRMApplication {
     }
     
     public static void main(String[] args) {
-        System.out.println("Starting Campus Course Records Manager...");
+        System.out.println("Starting Campus Course and Records Manager...");
         
         // Assertions demonstration (enable with -ea flag)
         assert AppConfig.getInstance() != null : "AppConfig should not be null";
